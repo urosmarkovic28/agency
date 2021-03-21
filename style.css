@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Ubuntu:wght@400;700&display=swap');
+:root{
+    --bela:#fff;
+    --orange:rgb(255,138,91);
+    --siva:#555;
+    --moka:#FCEADE;
+    --black:#000;
+    --transition: .4s ease;
+}
+body{
+    font-family: 'Roboto' sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ubuntu' sans-serif;
+}
+
+/************************
+NAV
+************************/
+.navbar{
+    border-top: 5px solid var(--orange);
+    background: var(--black);
+    padding: 0;
+    margin: 0;
+}
+.navbar-brand{
+    background: var(--orange);
+    padding: 15px 40px;
+    color: var(--bela);
+    text-shadow: 0 0 2px var(--black);
+    transition: var(--transition);
+}
+.navbar-brand:hover{
+    color: var(--black);
+    text-shadow: 0 0 2px var(--bela);
+   
+}
+.navbar .nav-link{
+    color: var(--orange);
+    font-size: 20px;
+    margin: 0 10px;
+    transition: var(--transition);
+}
+.navbar .nav-link:hover{
+    
+    color: var(--moka);
+}
