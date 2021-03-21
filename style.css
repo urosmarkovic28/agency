@@ -13,7 +13,14 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Ubuntu' sans-serif;
 }
-
+.py-5{
+    padding: 100px 0 !important;
+}
+.title h2{
+    font-size: 45px;
+    text-transform: uppercase;
+    color: var(--orange);
+}
 /************************
 NAV
 ************************/
@@ -50,7 +57,7 @@ BANNER
 ************************/
 #banner{
     background-image: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.99)), url(img/banner.jpg);
-    height: 75vh;
+    height: 80vh;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -67,7 +74,7 @@ BANNER
     z-index: -1;
 }
 #banner .row{
-    height: 75vh;
+    height: 80vh;
 }
 #banner h2{
     color: var(--orange);
@@ -107,4 +114,33 @@ BANNERICONS
 }
 .bannerIcons ul li i:hover{
     color: var(--black);
+}
+/************************
+Services
+************************/
+#services{
+   margin-top: 100px;
+}
+#services i{
+    font-size: 60px;
+    color: var(--bela);
+    background: var(--orange);
+    padding: 50px;
+    transition: var(--transition);
+}
+#services i:hover{
+    background: var(--black);
+    
+}
+#services .fa-apple{
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+#services .fa-android{
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+#services .fa-php{
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+#services .fa-js{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
 }
