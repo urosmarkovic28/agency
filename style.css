@@ -7,6 +7,9 @@
     --black:#000;
     --transition: .4s ease;
 }
+html{
+    scroll-behavior: smooth !important;
+}
 body{
     font-family: 'Roboto' sans-serif;
 }
@@ -203,4 +206,39 @@ TEAM
 }
 #team .row{
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+}
+/************************
+ABOUT
+************************/
+#about{
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/about-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    padding: 100px 0 200px 0;
+}
+#about .img-fluid{
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+#about .accordion > .card > .card-header{
+    background: var(--orange);
+}
+#about .card{
+    border: 1px solid var(--black);
+}
+.btn-link{
+    color: var(--black);
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: none;
+}
+.btn-link:hover{
+    color: var(--bela);
+    text-decoration: none;
+}
+.btn-link::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0a4";
 }
