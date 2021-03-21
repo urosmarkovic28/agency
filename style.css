@@ -21,6 +21,18 @@ h1,h2,h3,h4,h5,h6{
     text-transform: uppercase;
     color: var(--orange);
 }
+button{
+    text-decoration: none;
+    padding: 15px 25px;
+    border: 2px solid var(--orange);
+    background: transparent;
+    text-transform: uppercase;
+    margin: 0 10px;
+    transition: var(--transition);
+}
+button:hover{
+    text-decoration: none;
+}
 /************************
 NAV
 ************************/
@@ -92,7 +104,7 @@ BANNER
     transition: var(--transition);
 }
 #banner .bannerBtn:hover{
-    text-decoration: none;
+    
     background: var(--orange);
     color: var(--black);
 }
@@ -143,4 +155,42 @@ Services
 }
 #services .fa-js{
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+/************************
+Contact
+************************/
+#contact{
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/contact.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; /*Da se slika ne pomera dok se skrola*/
+    height: 70vh;
+    clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+}
+#contact .row{
+    height: 50vh;
+}
+#contact h2{
+    font-size: 5em;
+    color: var(--bela);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+#contact input{
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid var(--bela);
+    border-radius: 0;
+    font-size: 2em;
+}
+#contact button{
+    padding: 10px 30px;
+    font-size: 2em;
+    margin-left: 30px;
+    color: var(--orange);
+}
+#contact button:hover{
+    background: var(--orange);
+    color: var(--black);
 }
