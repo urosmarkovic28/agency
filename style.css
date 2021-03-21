@@ -194,3 +194,13 @@ Contact
     background: var(--orange);
     color: var(--black);
 }
+/************************
+TEAM
+************************/
+.carousel-caption{
+    background: rgba(255,138,91,.7);
+    bottom: 50px;
+}
+#team .row{
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+}
