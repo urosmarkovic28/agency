@@ -320,3 +320,50 @@ People
 #people i:hover{
     color: var(--siva);
 }
+/************************
+PRICING
+************************/
+#pricing .card{
+    border-radius: 0;
+}
+#pricing .card-title{
+    padding-top: 20px;
+}
+.priceNum{
+    position: relative;
+    background: var(--moka);
+}
+
+.money{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 20px;
+}
+.moneyNum{
+    font-size: 50px;
+}
+.moneyEnd{
+    font-size: 15px;
+}
+#pricing .list-group li:first-child{
+    padding-top: 50px;
+}
+#pricing .list-group .list-group-item{
+    font-size: 15px;
+}
+#pricing .list-group{
+    border-radius: 0 !important;
+}
+#pricing .btn{
+    background: var(--orange);
+    border-radius: 0 !important;
+    transition: var(--transition);
+}
+#pricing .btn:hover{
+    background: var(--siva);
+    color: var(--bela);
+}
+#pricing .active{
+    background: var(--orange);
+}
