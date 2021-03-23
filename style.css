@@ -321,6 +321,20 @@ People
     color: var(--siva);
 }
 /************************
+SKILLS
+************************/
+#skills{
+    background-image:linear-gradient(rgba(255,138,91,.8), rgba(255,138,91,.8)), url(img/progress.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    padding: 100px 0 100px 0;
+}
+.progress-bar{
+    background: var(--orange);
+}
+/************************
 PRICING
 ************************/
 #pricing .card{
@@ -366,4 +380,17 @@ PRICING
 }
 #pricing .active{
     background: var(--orange);
+}
+/************************
+FOOTER
+************************/
+footer{
+    background: var(--black);
+    color: var(--bela);
+}
+footer h2{
+    color: var(--orange);
+}
+footer i{
+    color: var(--orange);
 }
